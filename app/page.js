@@ -6,7 +6,7 @@ import { Box, Modal, Typography, Stack, TextField, Button } from "@mui/material"
 import { collection, deleteDoc, doc, getDocs, query, getDoc, setDoc } from "firebase/firestore";
 
 const itemEmojis = {
-  "apple": "🍎", "banana": "🍌", "orange": "🍊", "lemon": "🍋", "peach": "🍑",
+  "apple": "🍎", "banana": "🍌", "orange": "🍊", "lemon": "🍋", "peach": "🍑", "mushroom": "🍄",
   "watermelon": "🍉", "strawberry": "🍓", "blueberry": "🫐", "mango": "🥭", "kiwi": "🥝", "eggplant": "🍆",
   "melon": "🍈", "pineapple": "🍍", "pear": "🍐", "cherry": "🍒", "grape": "🍇", "hot pepper": "🌶️", "lettuce": "🥬",
   "avocado": "🥑", "tomato": "🍅", "broccoli": "🥦", "cucumber": "🥒", "coconut": "🥥", "sweet potato": "🍠",
